@@ -57,3 +57,9 @@ footer {
   background-color: #343a40;
   text-align: center;
 }
+
+.card-deck{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; margin-top: 30px;}
+.card-deck:nth-child(4n-3){grid-column: 1;}
+.card-deck:nth-child(4n-2){grid-column: 2;}
+.card-deck:nth-child(4n-1){grid-column: 3;}
+.card-deck:nth-child(4n){grid-column: 4;}
